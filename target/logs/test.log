@@ -1,0 +1,767 @@
+[2026-02-11 02:13:54.455] [main] INFO  hooks.Hooks - Loaded data.properties. Base URL = https://www.demoblaze.com/
+[2026-02-11 02:14:15.936] [main] INFO  hooks.Hooks - Loaded data.properties. Base URL = https://www.demoblaze.com/
+[2026-02-11 02:14:20.501] [main] INFO  hooks.Hooks - === Starting Scenario: Add one product to cart and verify it in cart ===
+[2026-02-11 02:14:22.851] [main] INFO  hooks.Hooks - === Starting Scenario: Add one product to cart and verify it in cart ===
+[2026-02-11 02:14:28.861] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 02:14:28.924] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 02:14:29.684] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 02:14:30.119] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 02:14:30.164] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 02:14:32.270] [main] INFO  pages.HomePage - Opening product: Samsung galaxy s6
+[2026-02-11 02:14:35.947] [main] INFO  pages.ProductPage - Product title detected: Samsung galaxy s6
+[2026-02-11 02:14:35.948] [main] INFO  stepsDefinations.AddToCartSteps - Verifying product page title. Expected: Samsung galaxy s6, Actual: Samsung galaxy s6
+[2026-02-11 02:14:35.956] [main] INFO  pages.ProductPage - Clicking 'Add to cart'
+[2026-02-11 02:14:36.149] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 02:14:36.262] [main] INFO  pages.ProductPage - Waiting for and accepting the alert
+[2026-02-11 02:14:37.064] [main] INFO  pages.HomePage - Opening product: Samsung galaxy s6
+[2026-02-11 02:14:37.344] [main] INFO  pages.ProductPage - Alert text: Product added
+[2026-02-11 02:14:37.376] [main] INFO  pages.HomePage - Navigating to Cart
+[2026-02-11 02:14:38.474] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Add_one_product_to_cart_and_verify_it_in_cart_20260211_021438449.png
+[2026-02-11 02:14:38.480] [main] INFO  hooks.Hooks - === Finished Scenario: Add one product to cart and verify it in cart | Status: FAILED ===
+[2026-02-11 02:14:39.938] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 02:14:40.759] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Add_one_product_to_cart_and_verify_it_in_cart_20260211_021440747.png
+[2026-02-11 02:14:40.764] [main] INFO  hooks.Hooks - === Finished Scenario: Add one product to cart and verify it in cart | Status: FAILED ===
+[2026-02-11 02:14:44.914] [main] INFO  hooks.Hooks - === Starting Scenario: Add two products and verify total items in cart ===
+[2026-02-11 02:14:47.985] [main] INFO  hooks.Hooks - === Starting Scenario: Add two products and verify total items in cart ===
+[2026-02-11 02:14:48.065] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 02:14:48.084] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 02:14:48.730] [main] INFO  pages.HomePage - Opening category: Laptops
+[2026-02-11 02:14:50.350] [main] INFO  pages.HomePage - Opening product: Sony vaio i5
+[2026-02-11 02:14:51.295] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 02:14:51.298] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 02:14:51.563] [main] INFO  pages.HomePage - Opening category: Laptops
+[2026-02-11 02:14:52.711] [main] INFO  pages.ProductPage - Product title detected: Sony vaio i5
+[2026-02-11 02:14:52.711] [main] INFO  stepsDefinations.AddToCartSteps - Verifying product page title. Expected: Sony vaio i5, Actual: Sony vaio i5
+[2026-02-11 02:14:52.720] [main] INFO  pages.ProductPage - Clicking 'Add to cart'
+[2026-02-11 02:14:52.945] [main] INFO  pages.ProductPage - Waiting for and accepting the alert
+[2026-02-11 02:14:53.660] [main] INFO  pages.HomePage - Opening product: Sony vaio i5
+[2026-02-11 02:14:54.029] [main] INFO  pages.ProductPage - Alert text: Product added
+[2026-02-11 02:14:54.065] [main] INFO  pages.HomePage - Clicking Home Brand (PRODUCT STORE)
+[2026-02-11 02:14:55.079] [main] INFO  pages.HomePage - Opening category: Monitors
+[2026-02-11 02:14:55.421] [main] INFO  pages.HomePage - Opening product: Apple monitor 24
+[2026-02-11 02:14:56.185] [main] INFO  pages.ProductPage - Product title detected: Sony vaio i5
+[2026-02-11 02:14:56.185] [main] INFO  stepsDefinations.AddToCartSteps - Verifying product page title. Expected: Sony vaio i5, Actual: Sony vaio i5
+[2026-02-11 02:14:56.187] [main] INFO  pages.ProductPage - Clicking 'Add to cart'
+[2026-02-11 02:14:56.443] [main] INFO  pages.ProductPage - Waiting for and accepting the alert
+[2026-02-11 02:14:57.535] [main] INFO  pages.ProductPage - Alert text: Product added
+[2026-02-11 02:14:57.677] [main] INFO  pages.HomePage - Clicking Home Brand (PRODUCT STORE)
+[2026-02-11 02:14:59.032] [main] INFO  pages.ProductPage - Product title detected: Apple monitor 24
+[2026-02-11 02:14:59.032] [main] INFO  stepsDefinations.AddToCartSteps - Verifying product page title. Expected: Apple monitor 24, Actual: Apple monitor 24
+[2026-02-11 02:14:59.032] [main] INFO  pages.ProductPage - Clicking 'Add to cart'
+[2026-02-11 02:14:59.196] [main] INFO  pages.HomePage - Opening category: Monitors
+[2026-02-11 02:14:59.380] [main] INFO  pages.ProductPage - Waiting for and accepting the alert
+[2026-02-11 02:14:59.843] [main] INFO  pages.HomePage - Opening product: Apple monitor 24
+[2026-02-11 02:15:00.516] [main] INFO  pages.ProductPage - Alert text: Product added
+[2026-02-11 02:15:00.551] [main] INFO  pages.HomePage - Navigating to Cart
+[2026-02-11 02:15:02.238] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 02:15:03.420] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Add_two_products_and_verify_total_items_in_cart_20260211_021503370.png
+[2026-02-11 02:15:03.429] [main] INFO  hooks.Hooks - === Finished Scenario: Add two products and verify total items in cart | Status: FAILED ===
+[2026-02-11 02:15:04.385] [main] INFO  pages.ProductPage - Product title detected: Apple monitor 24
+[2026-02-11 02:15:04.387] [main] INFO  stepsDefinations.AddToCartSteps - Verifying product page title. Expected: Apple monitor 24, Actual: Apple monitor 24
+[2026-02-11 02:15:04.387] [main] INFO  pages.ProductPage - Clicking 'Add to cart'
+[2026-02-11 02:15:04.697] [main] INFO  pages.ProductPage - Waiting for and accepting the alert
+[2026-02-11 02:15:05.828] [main] INFO  pages.ProductPage - Alert text: Product added
+[2026-02-11 02:15:05.850] [main] INFO  pages.HomePage - Navigating to Cart
+[2026-02-11 02:15:07.811] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 02:15:08.283] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Add_two_products_and_verify_total_items_in_cart_20260211_021508268.png
+[2026-02-11 02:15:08.285] [main] INFO  hooks.Hooks - === Finished Scenario: Add two products and verify total items in cart | Status: FAILED ===
+[2026-02-11 02:15:11.249] [main] INFO  hooks.Hooks - === Starting Scenario: Delete a product from cart ===
+[2026-02-11 02:15:14.453] [main] INFO  hooks.Hooks - === Starting Scenario: Delete a product from cart ===
+[2026-02-11 02:15:15.244] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 02:15:15.260] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 02:15:15.650] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 02:15:16.682] [main] INFO  pages.HomePage - Opening product: Nokia lumia 1520
+[2026-02-11 02:15:18.274] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 02:15:18.278] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 02:15:18.454] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 02:15:19.126] [main] INFO  pages.ProductPage - Product title detected: Nokia lumia 1520
+[2026-02-11 02:15:19.126] [main] INFO  stepsDefinations.AddToCartSteps - Verifying product page title. Expected: Nokia lumia 1520, Actual: Nokia lumia 1520
+[2026-02-11 02:15:19.126] [main] INFO  pages.ProductPage - Clicking 'Add to cart'
+[2026-02-11 02:15:19.351] [main] INFO  pages.ProductPage - Waiting for and accepting the alert
+[2026-02-11 02:15:19.998] [main] INFO  pages.HomePage - Opening product: Nokia lumia 1520
+[2026-02-11 02:15:20.391] [main] INFO  pages.ProductPage - Alert text: Product added
+[2026-02-11 02:15:20.403] [main] INFO  pages.HomePage - Navigating to Cart
+[2026-02-11 02:15:21.488] [main] INFO  pages.HomePage - Navigating to Cart
+[2026-02-11 02:15:23.026] [main] INFO  pages.ProductPage - Product title detected: Nokia lumia 1520
+[2026-02-11 02:15:23.028] [main] INFO  stepsDefinations.AddToCartSteps - Verifying product page title. Expected: Nokia lumia 1520, Actual: Nokia lumia 1520
+[2026-02-11 02:15:23.028] [main] INFO  pages.ProductPage - Clicking 'Add to cart'
+[2026-02-11 02:15:23.296] [main] INFO  pages.ProductPage - Waiting for and accepting the alert
+[2026-02-11 02:15:24.432] [main] INFO  pages.ProductPage - Alert text: Product added
+[2026-02-11 02:15:24.499] [main] INFO  pages.HomePage - Navigating to Cart
+[2026-02-11 02:15:25.747] [main] INFO  pages.HomePage - Navigating to Cart
+[2026-02-11 02:15:34.073] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Delete_a_product_from_cart_20260211_021534063.png
+[2026-02-11 02:15:34.073] [main] INFO  hooks.Hooks - === Finished Scenario: Delete a product from cart | Status: FAILED ===
+[2026-02-11 02:15:38.304] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Delete_a_product_from_cart_20260211_021538295.png
+[2026-02-11 02:15:38.306] [main] INFO  hooks.Hooks - === Finished Scenario: Delete a product from cart | Status: FAILED ===
+[2026-02-11 02:20:51.342] [main] INFO  hooks.Hooks - Loaded data.properties. Base URL = https://www.demoblaze.com/
+[2026-02-11 02:20:55.818] [main] INFO  hooks.Hooks - === Starting Scenario: Add one product to cart and verify it in cart ===
+[2026-02-11 02:20:59.555] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 02:20:59.596] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 02:20:59.832] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 02:21:00.736] [main] INFO  pages.HomePage - Opening product: Samsung galaxy s6
+[2026-02-11 02:21:01.493] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Add_one_product_to_cart_and_verify_it_in_cart_20260211_022101475.png
+[2026-02-11 02:21:01.497] [main] INFO  hooks.Hooks - === Finished Scenario: Add one product to cart and verify it in cart | Status: FAILED ===
+[2026-02-11 02:21:05.817] [main] INFO  hooks.Hooks - === Starting Scenario: Add two products and verify total items in cart ===
+[2026-02-11 02:21:09.760] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 02:21:09.762] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 02:21:09.956] [main] INFO  pages.HomePage - Opening category: Laptops
+[2026-02-11 02:21:11.974] [main] INFO  pages.HomePage - Opening product: Sony vaio i5
+[2026-02-11 02:21:14.113] [main] INFO  pages.ProductPage - Product title detected: Sony vaio i5
+[2026-02-11 02:21:14.113] [main] INFO  stepsDefinations.AddToCartSteps - Verifying product page title. Expected: Sony vaio i5, Actual: Sony vaio i5
+[2026-02-11 02:21:14.119] [main] INFO  pages.ProductPage - Clicking 'Add to cart'
+[2026-02-11 02:21:14.322] [main] INFO  pages.ProductPage - Waiting for and accepting the alert
+[2026-02-11 02:21:15.373] [main] INFO  pages.ProductPage - Alert text: Product added
+[2026-02-11 02:21:15.409] [main] INFO  pages.HomePage - Clicking Home Brand (PRODUCT STORE)
+[2026-02-11 02:21:16.291] [main] INFO  pages.HomePage - Opening category: Monitors
+[2026-02-11 02:21:17.112] [main] INFO  pages.HomePage - Opening product: Apple monitor 24
+[2026-02-11 02:21:20.760] [main] INFO  pages.ProductPage - Product title detected: Apple monitor 24
+[2026-02-11 02:21:20.760] [main] INFO  stepsDefinations.AddToCartSteps - Verifying product page title. Expected: Apple monitor 24, Actual: Apple monitor 24
+[2026-02-11 02:21:20.760] [main] INFO  pages.ProductPage - Clicking 'Add to cart'
+[2026-02-11 02:21:20.950] [main] INFO  pages.ProductPage - Waiting for and accepting the alert
+[2026-02-11 02:21:22.019] [main] INFO  pages.ProductPage - Alert text: Product added
+[2026-02-11 02:21:22.039] [main] INFO  pages.HomePage - Navigating to Cart
+[2026-02-11 02:21:23.777] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 02:21:24.211] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Add_two_products_and_verify_total_items_in_cart_20260211_022124200.png
+[2026-02-11 02:21:24.213] [main] INFO  hooks.Hooks - === Finished Scenario: Add two products and verify total items in cart | Status: FAILED ===
+[2026-02-11 02:21:28.133] [main] INFO  hooks.Hooks - === Starting Scenario: Delete a product from cart ===
+[2026-02-11 02:21:29.444] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 02:21:29.473] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 02:21:31.636] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 02:21:32.984] [main] INFO  pages.HomePage - Opening product: Nokia lumia 1520
+[2026-02-11 02:21:35.298] [main] INFO  pages.ProductPage - Product title detected: Nokia lumia 1520
+[2026-02-11 02:21:35.298] [main] INFO  stepsDefinations.AddToCartSteps - Verifying product page title. Expected: Nokia lumia 1520, Actual: Nokia lumia 1520
+[2026-02-11 02:21:35.298] [main] INFO  pages.ProductPage - Clicking 'Add to cart'
+[2026-02-11 02:21:35.503] [main] INFO  pages.ProductPage - Waiting for and accepting the alert
+[2026-02-11 02:21:36.539] [main] INFO  pages.ProductPage - Alert text: Product added
+[2026-02-11 02:21:36.552] [main] INFO  pages.HomePage - Navigating to Cart
+[2026-02-11 02:21:37.679] [main] INFO  pages.HomePage - Navigating to Cart
+[2026-02-11 02:21:50.242] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Delete_a_product_from_cart_20260211_022150228.png
+[2026-02-11 02:21:50.242] [main] INFO  hooks.Hooks - === Finished Scenario: Delete a product from cart | Status: FAILED ===
+[2026-02-11 02:39:48.251] [main] INFO  hooks.Hooks - Loaded data.properties. Base URL = https://www.demoblaze.com/
+[2026-02-11 02:39:52.366] [main] INFO  hooks.Hooks - === Starting Scenario: Add one product to cart and verify it in cart ===
+[2026-02-11 02:39:55.632] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 02:39:55.704] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 02:39:55.908] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 02:39:57.959] [main] INFO  pages.HomePage - Opening product: Samsung galaxy s6
+[2026-02-11 02:40:01.523] [main] INFO  pages.ProductPage - Product title detected: Samsung galaxy s6
+[2026-02-11 02:40:01.523] [main] INFO  stepsDefinations.AddToCartSteps - Verifying product page title. Expected: Samsung galaxy s6, Actual: Samsung galaxy s6
+[2026-02-11 02:40:01.532] [main] INFO  pages.ProductPage - Clicking 'Add to cart'
+[2026-02-11 02:40:01.760] [main] INFO  pages.ProductPage - Waiting for and accepting the alert
+[2026-02-11 02:40:02.815] [main] INFO  pages.ProductPage - Alert text: Product added
+[2026-02-11 02:40:02.828] [main] INFO  pages.HomePage - Navigating to Cart
+[2026-02-11 02:40:17.216] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Add_one_product_to_cart_and_verify_it_in_cart_20260211_024017185.png
+[2026-02-11 02:40:17.219] [main] INFO  hooks.Hooks - === Finished Scenario: Add one product to cart and verify it in cart | Status: FAILED ===
+[2026-02-11 02:40:21.079] [main] INFO  hooks.Hooks - === Starting Scenario: Add two products and verify total items in cart ===
+[2026-02-11 02:40:24.115] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 02:40:24.118] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 02:40:24.321] [main] INFO  pages.HomePage - Opening category: Laptops
+[2026-02-11 02:40:25.790] [main] INFO  pages.HomePage - Opening product: Sony vaio i5
+[2026-02-11 02:40:28.022] [main] INFO  pages.ProductPage - Product title detected: Sony vaio i5
+[2026-02-11 02:40:28.022] [main] INFO  stepsDefinations.AddToCartSteps - Verifying product page title. Expected: Sony vaio i5, Actual: Sony vaio i5
+[2026-02-11 02:40:28.022] [main] INFO  pages.ProductPage - Clicking 'Add to cart'
+[2026-02-11 02:40:28.236] [main] INFO  pages.ProductPage - Waiting for and accepting the alert
+[2026-02-11 02:40:29.286] [main] INFO  pages.ProductPage - Alert text: Product added
+[2026-02-11 02:40:29.297] [main] INFO  pages.HomePage - Clicking Home Brand (PRODUCT STORE)
+[2026-02-11 02:40:30.179] [main] INFO  pages.HomePage - Opening category: Monitors
+[2026-02-11 02:40:30.993] [main] INFO  pages.HomePage - Opening product: Apple monitor 24
+[2026-02-11 02:40:32.481] [main] INFO  pages.ProductPage - Product title detected: Apple monitor 24
+[2026-02-11 02:40:32.481] [main] INFO  stepsDefinations.AddToCartSteps - Verifying product page title. Expected: Apple monitor 24, Actual: Apple monitor 24
+[2026-02-11 02:40:32.481] [main] INFO  pages.ProductPage - Clicking 'Add to cart'
+[2026-02-11 02:40:32.711] [main] INFO  pages.ProductPage - Waiting for and accepting the alert
+[2026-02-11 02:40:33.258] [main] INFO  pages.ProductPage - Alert text: Product added
+[2026-02-11 02:40:33.286] [main] INFO  pages.HomePage - Navigating to Cart
+[2026-02-11 02:40:47.298] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Add_two_products_and_verify_total_items_in_cart_20260211_024047289.png
+[2026-02-11 02:40:47.298] [main] INFO  hooks.Hooks - === Finished Scenario: Add two products and verify total items in cart | Status: FAILED ===
+[2026-02-11 02:40:51.148] [main] INFO  hooks.Hooks - === Starting Scenario: Delete a product from cart ===
+[2026-02-11 02:40:54.990] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 02:40:54.994] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 02:40:55.195] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 02:40:56.698] [main] INFO  pages.HomePage - Opening product: Nokia lumia 1520
+[2026-02-11 02:40:59.138] [main] INFO  pages.ProductPage - Product title detected: Nokia lumia 1520
+[2026-02-11 02:40:59.138] [main] INFO  stepsDefinations.AddToCartSteps - Verifying product page title. Expected: Nokia lumia 1520, Actual: Nokia lumia 1520
+[2026-02-11 02:40:59.138] [main] INFO  pages.ProductPage - Clicking 'Add to cart'
+[2026-02-11 02:40:59.340] [main] INFO  pages.ProductPage - Waiting for and accepting the alert
+[2026-02-11 02:41:00.433] [main] INFO  pages.ProductPage - Alert text: Product added
+[2026-02-11 02:41:00.466] [main] INFO  pages.HomePage - Navigating to Cart
+[2026-02-11 02:41:01.565] [main] INFO  pages.HomePage - Navigating to Cart
+[2026-02-11 02:41:14.798] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Delete_a_product_from_cart_20260211_024114780.png
+[2026-02-11 02:41:14.798] [main] INFO  hooks.Hooks - === Finished Scenario: Delete a product from cart | Status: FAILED ===
+[2026-02-11 16:27:02.669] [main] INFO  hooks.Hooks - Loaded data.properties. Base URL = https://www.demoblaze.com/
+[2026-02-11 16:27:05.842] [main] INFO  hooks.Hooks - === Starting Scenario: Add one product to cart and verify it in cart ===
+[2026-02-11 16:27:08.364] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 16:27:08.401] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 16:27:08.527] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 16:27:09.769] [main] INFO  pages.HomePage - Opening product: Samsung galaxy s6
+[2026-02-11 16:27:12.006] [main] INFO  pages.ProductPage - Product title detected: Samsung galaxy s6
+[2026-02-11 16:27:12.006] [main] INFO  stepsDefinations.AddToCartSteps - Verifying product page title. Expected: Samsung galaxy s6, Actual: Samsung galaxy s6
+[2026-02-11 16:27:12.012] [main] INFO  pages.ProductPage - Clicking 'Add to cart'
+[2026-02-11 16:27:12.116] [main] INFO  pages.ProductPage - Waiting for and accepting the alert
+[2026-02-11 16:27:13.141] [main] INFO  pages.ProductPage - Alert text: Product added
+[2026-02-11 16:27:13.158] [main] INFO  pages.HomePage - Navigating to Cart
+[2026-02-11 16:27:14.208] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 16:27:14.470] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Add_one_product_to_cart_and_verify_it_in_cart_20260211_162714462.png
+[2026-02-11 16:27:14.475] [main] INFO  hooks.Hooks - === Finished Scenario: Add one product to cart and verify it in cart | Status: FAILED ===
+[2026-02-11 16:27:16.756] [main] INFO  hooks.Hooks - === Starting Scenario: Add two products and verify total items in cart ===
+[2026-02-11 16:27:19.368] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 16:27:19.370] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 16:27:19.472] [main] INFO  pages.HomePage - Opening category: Laptops
+[2026-02-11 16:27:20.709] [main] INFO  pages.HomePage - Opening product: Sony vaio i5
+[2026-02-11 16:27:22.814] [main] INFO  pages.ProductPage - Product title detected: Sony vaio i5
+[2026-02-11 16:27:22.814] [main] INFO  stepsDefinations.AddToCartSteps - Verifying product page title. Expected: Sony vaio i5, Actual: Sony vaio i5
+[2026-02-11 16:27:22.814] [main] INFO  pages.ProductPage - Clicking 'Add to cart'
+[2026-02-11 16:27:22.923] [main] INFO  pages.ProductPage - Waiting for and accepting the alert
+[2026-02-11 16:27:23.948] [main] INFO  pages.ProductPage - Alert text: Product added
+[2026-02-11 16:27:23.959] [main] INFO  pages.HomePage - Clicking Home Brand (PRODUCT STORE)
+[2026-02-11 16:27:24.568] [main] INFO  pages.HomePage - Opening category: Monitors
+[2026-02-11 16:27:25.269] [main] INFO  pages.HomePage - Opening product: Apple monitor 24
+[2026-02-11 16:27:26.506] [main] INFO  pages.ProductPage - Product title detected: Apple monitor 24
+[2026-02-11 16:27:26.506] [main] INFO  stepsDefinations.AddToCartSteps - Verifying product page title. Expected: Apple monitor 24, Actual: Apple monitor 24
+[2026-02-11 16:27:26.506] [main] INFO  pages.ProductPage - Clicking 'Add to cart'
+[2026-02-11 16:27:26.642] [main] INFO  pages.ProductPage - Waiting for and accepting the alert
+[2026-02-11 16:27:27.162] [main] INFO  pages.ProductPage - Alert text: Product added
+[2026-02-11 16:27:27.174] [main] INFO  pages.HomePage - Navigating to Cart
+[2026-02-11 16:27:28.744] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 16:27:28.990] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Add_two_products_and_verify_total_items_in_cart_20260211_162728986.png
+[2026-02-11 16:27:28.993] [main] INFO  hooks.Hooks - === Finished Scenario: Add two products and verify total items in cart | Status: FAILED ===
+[2026-02-11 16:27:31.252] [main] INFO  hooks.Hooks - === Starting Scenario: Delete a product from cart ===
+[2026-02-11 16:27:34.238] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 16:27:34.245] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 16:27:34.363] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 16:27:35.636] [main] INFO  pages.HomePage - Opening product: Nokia lumia 1520
+[2026-02-11 16:27:37.795] [main] INFO  pages.ProductPage - Product title detected: Nokia lumia 1520
+[2026-02-11 16:27:37.795] [main] INFO  stepsDefinations.AddToCartSteps - Verifying product page title. Expected: Nokia lumia 1520, Actual: Nokia lumia 1520
+[2026-02-11 16:27:37.795] [main] INFO  pages.ProductPage - Clicking 'Add to cart'
+[2026-02-11 16:27:37.911] [main] INFO  pages.ProductPage - Waiting for and accepting the alert
+[2026-02-11 16:27:38.940] [main] INFO  pages.ProductPage - Alert text: Product added
+[2026-02-11 16:27:38.947] [main] INFO  pages.HomePage - Navigating to Cart
+[2026-02-11 16:27:39.825] [main] INFO  pages.HomePage - Navigating to Cart
+[2026-02-11 16:27:55.453] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Delete_a_product_from_cart_20260211_162755451.png
+[2026-02-11 16:27:55.458] [main] INFO  hooks.Hooks - === Finished Scenario: Delete a product from cart | Status: FAILED ===
+[2026-02-11 16:43:19.517] [main] INFO  hooks.Hooks - Loaded data.properties. Base URL = https://www.demoblaze.com/
+[2026-02-11 16:43:21.990] [main] INFO  hooks.Hooks - === Starting Scenario: Add one product to cart and verify it in cart ===
+[2026-02-11 16:43:24.910] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 16:43:24.938] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 16:43:25.058] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 16:43:26.314] [main] INFO  pages.HomePage - Opening product: Samsung galaxy s6
+[2026-02-11 16:43:28.413] [main] INFO  pages.ProductPage - Product title detected: Samsung galaxy s6
+[2026-02-11 16:43:28.413] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Samsung galaxy s6
+[2026-02-11 16:43:28.419] [main] INFO  pages.ProductPage - Clicking 'Add to cart'
+[2026-02-11 16:43:28.526] [main] INFO  pages.ProductPage - Waiting for and accepting the alert
+[2026-02-11 16:43:29.549] [main] INFO  pages.ProductPage - Alert text: Product added
+[2026-02-11 16:43:29.591] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 16:43:29.592] [main] INFO  stepsDefinations.AddToCartSteps - Cart items collected: []
+[2026-02-11 16:43:29.949] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Add_one_product_to_cart_and_verify_it_in_cart_20260211_164329933.png
+[2026-02-11 16:43:29.949] [main] INFO  hooks.Hooks - === Finished Scenario: Add one product to cart and verify it in cart | Status: FAILED ===
+[2026-02-11 16:43:32.238] [main] INFO  hooks.Hooks - === Starting Scenario: Add two products and verify total items in cart ===
+[2026-02-11 16:43:34.827] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 16:43:34.828] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 16:43:34.931] [main] INFO  pages.HomePage - Opening category: Laptops
+[2026-02-11 16:43:36.155] [main] INFO  pages.HomePage - Opening product: Sony vaio i5
+[2026-02-11 16:43:38.161] [main] INFO  pages.ProductPage - Product title detected: Sony vaio i5
+[2026-02-11 16:43:38.161] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Sony vaio i5
+[2026-02-11 16:43:38.161] [main] INFO  pages.ProductPage - Clicking 'Add to cart'
+[2026-02-11 16:43:38.266] [main] INFO  pages.ProductPage - Waiting for and accepting the alert
+[2026-02-11 16:43:39.294] [main] INFO  pages.ProductPage - Alert text: Product added
+[2026-02-11 16:43:39.305] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 16:43:39.448] [main] INFO  pages.HomePage - Opening category: Monitors
+[2026-02-11 16:43:40.125] [main] INFO  pages.HomePage - Opening product: Apple monitor 24
+[2026-02-11 16:43:41.330] [main] INFO  pages.ProductPage - Product title detected: Apple monitor 24
+[2026-02-11 16:43:41.330] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Apple monitor 24
+[2026-02-11 16:43:41.331] [main] INFO  pages.ProductPage - Clicking 'Add to cart'
+[2026-02-11 16:43:41.437] [main] INFO  pages.ProductPage - Waiting for and accepting the alert
+[2026-02-11 16:43:41.961] [main] INFO  pages.ProductPage - Alert text: Product added
+[2026-02-11 16:43:42.003] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 16:43:42.003] [main] INFO  stepsDefinations.AddToCartSteps - Cart count - Expected: 2, Actual: 0
+[2026-02-11 16:43:42.225] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Add_two_products_and_verify_total_items_in_cart_20260211_164342208.png
+[2026-02-11 16:43:42.225] [main] INFO  hooks.Hooks - === Finished Scenario: Add two products and verify total items in cart | Status: FAILED ===
+[2026-02-11 16:43:44.384] [main] INFO  hooks.Hooks - === Starting Scenario: Delete a product from cart ===
+[2026-02-11 16:43:47.596] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 16:43:47.599] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 16:43:47.698] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 16:43:48.904] [main] INFO  pages.HomePage - Opening product: Nokia lumia 1520
+[2026-02-11 16:43:50.991] [main] INFO  pages.ProductPage - Product title detected: Nokia lumia 1520
+[2026-02-11 16:43:50.991] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Nokia lumia 1520
+[2026-02-11 16:43:50.991] [main] INFO  pages.ProductPage - Clicking 'Add to cart'
+[2026-02-11 16:43:51.102] [main] INFO  pages.ProductPage - Waiting for and accepting the alert
+[2026-02-11 16:43:52.135] [main] INFO  pages.ProductPage - Alert text: Product added
+[2026-02-11 16:43:52.145] [main] INFO  pages.HomePage - Navigating to Cart
+[2026-02-11 16:43:54.678] [main] INFO  pages.HomePage - Navigating to Cart
+[2026-02-11 16:44:10.273] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Delete_a_product_from_cart_20260211_164410264.png
+[2026-02-11 16:44:10.275] [main] INFO  hooks.Hooks - === Finished Scenario: Delete a product from cart | Status: FAILED ===
+[2026-02-11 16:50:23.342] [main] INFO  hooks.Hooks - Loaded data.properties. Base URL = https://www.demoblaze.com/
+[2026-02-11 16:50:25.881] [main] INFO  hooks.Hooks - === Starting Scenario: Add one product to cart and verify it in cart ===
+[2026-02-11 16:50:30.163] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 16:50:30.198] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 16:50:30.362] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 16:50:31.748] [main] INFO  pages.HomePage - Opening product: Samsung galaxy s6
+[2026-02-11 16:50:33.687] [main] INFO  pages.ProductPage - Product title detected: Samsung galaxy s6
+[2026-02-11 16:50:33.687] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Samsung galaxy s6
+[2026-02-11 16:50:33.689] [main] INFO  pages.ProductPage - Clicking 'Add to cart'
+[2026-02-11 16:50:33.836] [main] INFO  pages.ProductPage - Waiting for and accepting the alert
+[2026-02-11 16:50:34.886] [main] INFO  pages.ProductPage - Alert text: Product added
+[2026-02-11 16:50:34.926] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 16:50:35.199] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 16:50:35.461] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 16:50:35.725] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 16:50:36.014] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 16:50:36.285] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 16:50:36.561] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 16:50:36.843] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 16:50:37.125] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 16:50:37.413] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 16:50:38.019] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Add_one_product_to_cart_and_verify_it_in_cart_20260211_165038010.png
+[2026-02-11 16:50:38.022] [main] INFO  hooks.Hooks - === Finished Scenario: Add one product to cart and verify it in cart | Status: FAILED ===
+[2026-02-11 16:50:40.320] [main] INFO  hooks.Hooks - === Starting Scenario: Add two products and verify total items in cart ===
+[2026-02-11 16:50:45.045] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 16:50:45.047] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 16:50:45.210] [main] INFO  pages.HomePage - Opening category: Laptops
+[2026-02-11 16:50:45.942] [main] INFO  pages.HomePage - Opening product: Sony vaio i5
+[2026-02-11 16:50:47.974] [main] INFO  pages.ProductPage - Product title detected: Sony vaio i5
+[2026-02-11 16:50:47.974] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Sony vaio i5
+[2026-02-11 16:50:47.974] [main] INFO  pages.ProductPage - Clicking 'Add to cart'
+[2026-02-11 16:50:48.105] [main] INFO  pages.ProductPage - Waiting for and accepting the alert
+[2026-02-11 16:50:49.141] [main] INFO  pages.ProductPage - Alert text: Product added
+[2026-02-11 16:50:49.153] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 16:50:49.312] [main] INFO  pages.HomePage - Opening category: Monitors
+[2026-02-11 16:50:50.040] [main] INFO  pages.HomePage - Opening product: Apple monitor 24
+[2026-02-11 16:50:51.281] [main] INFO  pages.ProductPage - Product title detected: Apple monitor 24
+[2026-02-11 16:50:51.281] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Apple monitor 24
+[2026-02-11 16:50:51.281] [main] INFO  pages.ProductPage - Clicking 'Add to cart'
+[2026-02-11 16:50:51.382] [main] INFO  pages.ProductPage - Waiting for and accepting the alert
+[2026-02-11 16:50:51.894] [main] INFO  pages.ProductPage - Alert text: Product added
+[2026-02-11 16:50:51.944] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 16:50:51.944] [main] INFO  stepsDefinations.AddToCartSteps - Cart count - Expected: 2, Actual: 0
+[2026-02-11 16:50:52.196] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Add_two_products_and_verify_total_items_in_cart_20260211_165052190.png
+[2026-02-11 16:50:52.197] [main] INFO  hooks.Hooks - === Finished Scenario: Add two products and verify total items in cart | Status: FAILED ===
+[2026-02-11 16:50:55.981] [main] INFO  hooks.Hooks - === Starting Scenario: Delete a product from cart ===
+[2026-02-11 16:51:00.245] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 16:51:00.259] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 16:51:00.431] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 16:51:01.679] [main] INFO  pages.HomePage - Opening product: Nokia lumia 1520
+[2026-02-11 16:51:03.682] [main] INFO  pages.ProductPage - Product title detected: Nokia lumia 1520
+[2026-02-11 16:51:03.682] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Nokia lumia 1520
+[2026-02-11 16:51:03.682] [main] INFO  pages.ProductPage - Clicking 'Add to cart'
+[2026-02-11 16:51:03.810] [main] INFO  pages.ProductPage - Waiting for and accepting the alert
+[2026-02-11 16:51:04.847] [main] INFO  pages.ProductPage - Alert text: Product added
+[2026-02-11 16:51:04.859] [main] INFO  pages.HomePage - Navigating to Cart
+[2026-02-11 16:51:07.512] [main] INFO  pages.HomePage - Navigating to Cart
+[2026-02-11 16:51:23.103] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Delete_a_product_from_cart_20260211_165123103.png
+[2026-02-11 16:51:23.111] [main] INFO  hooks.Hooks - === Finished Scenario: Delete a product from cart | Status: FAILED ===
+[2026-02-11 16:57:42.583] [main] INFO  hooks.Hooks - Loaded data.properties. Base URL = https://www.demoblaze.com/
+[2026-02-11 16:57:45.331] [main] INFO  hooks.Hooks - === Starting Scenario: Add one product to cart and verify it in cart ===
+[2026-02-11 16:57:48.350] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 16:57:48.363] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 16:57:48.513] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 16:57:50.347] [main] INFO  pages.HomePage - Opening product: Samsung galaxy s6
+[2026-02-11 16:57:52.349] [main] INFO  pages.ProductPage - Product title detected: Samsung galaxy s6
+[2026-02-11 16:57:52.351] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Samsung galaxy s6
+[2026-02-11 16:57:53.838] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 16:57:54.102] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 16:57:54.388] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 16:57:54.660] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 16:57:54.927] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 16:57:55.220] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 16:57:55.478] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 16:57:55.787] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 16:57:56.052] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 16:57:56.723] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Add_one_product_to_cart_and_verify_it_in_cart_20260211_165756706.png
+[2026-02-11 16:57:56.729] [main] INFO  hooks.Hooks - === Finished Scenario: Add one product to cart and verify it in cart | Status: FAILED ===
+[2026-02-11 16:58:00.701] [main] INFO  hooks.Hooks - === Starting Scenario: Add two products and verify total items in cart ===
+[2026-02-11 16:58:03.336] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 16:58:03.338] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 16:58:03.480] [main] INFO  pages.HomePage - Opening category: Laptops
+[2026-02-11 16:58:04.724] [main] INFO  pages.HomePage - Opening product: Sony vaio i5
+[2026-02-11 16:58:06.835] [main] INFO  pages.ProductPage - Product title detected: Sony vaio i5
+[2026-02-11 16:58:06.835] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Sony vaio i5
+[2026-02-11 16:58:08.279] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 16:58:08.416] [main] INFO  pages.HomePage - Opening category: Monitors
+[2026-02-11 16:58:09.113] [main] INFO  pages.HomePage - Opening product: Apple monitor 24
+[2026-02-11 16:58:10.308] [main] INFO  pages.ProductPage - Product title detected: Apple monitor 24
+[2026-02-11 16:58:10.308] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Apple monitor 24
+[2026-02-11 16:58:11.276] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 16:58:11.276] [main] INFO  stepsDefinations.AddToCartSteps - Cart count - Expected: 2, Actual: 0
+[2026-02-11 16:58:11.492] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Add_two_products_and_verify_total_items_in_cart_20260211_165811475.png
+[2026-02-11 16:58:11.492] [main] INFO  hooks.Hooks - === Finished Scenario: Add two products and verify total items in cart | Status: FAILED ===
+[2026-02-11 16:58:13.843] [main] INFO  hooks.Hooks - === Starting Scenario: Delete a product from cart ===
+[2026-02-11 16:58:17.553] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 16:58:17.555] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 16:58:17.662] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 16:58:19.376] [main] INFO  pages.HomePage - Opening product: Nokia lumia 1520
+[2026-02-11 16:58:21.975] [main] INFO  pages.ProductPage - Product title detected: Nokia lumia 1520
+[2026-02-11 16:58:21.975] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Nokia lumia 1520
+[2026-02-11 16:58:26.110] [main] INFO  pages.HomePage - Navigating to Cart
+[2026-02-11 16:58:41.702] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Delete_a_product_from_cart_20260211_165841699.png
+[2026-02-11 16:58:41.703] [main] INFO  hooks.Hooks - === Finished Scenario: Delete a product from cart | Status: FAILED ===
+[2026-02-11 17:06:17.723] [main] INFO  hooks.Hooks - Loaded data.properties. Base URL = https://www.demoblaze.com/
+[2026-02-11 17:06:20.288] [main] INFO  hooks.Hooks - === Starting Scenario: Add one product to cart and verify it in cart ===
+[2026-02-11 17:06:25.426] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 17:06:25.455] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 17:06:25.572] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 17:06:27.369] [main] INFO  pages.HomePage - Opening product: Samsung galaxy s6
+[2026-02-11 17:06:29.886] [main] INFO  pages.ProductPage - Product title detected: Samsung galaxy s6
+[2026-02-11 17:06:29.886] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Samsung galaxy s6
+[2026-02-11 17:06:31.341] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 17:06:31.645] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 17:06:31.911] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 17:06:32.213] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 17:06:32.491] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 17:06:32.787] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 17:06:33.055] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 17:06:33.350] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 17:06:33.649] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 17:06:34.315] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Add_one_product_to_cart_and_verify_it_in_cart_20260211_170634305.png
+[2026-02-11 17:06:34.322] [main] INFO  hooks.Hooks - === Finished Scenario: Add one product to cart and verify it in cart | Status: FAILED ===
+[2026-02-11 17:06:36.782] [main] INFO  hooks.Hooks - === Starting Scenario: Add two products and verify total items in cart ===
+[2026-02-11 17:06:39.469] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 17:06:39.471] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 17:06:39.577] [main] INFO  pages.HomePage - Opening category: Laptops
+[2026-02-11 17:06:40.792] [main] INFO  pages.HomePage - Opening product: Sony vaio i5
+[2026-02-11 17:06:42.794] [main] INFO  pages.ProductPage - Product title detected: Sony vaio i5
+[2026-02-11 17:06:42.794] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Sony vaio i5
+[2026-02-11 17:06:44.253] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 17:06:44.374] [main] INFO  pages.HomePage - Opening category: Monitors
+[2026-02-11 17:06:45.063] [main] INFO  pages.HomePage - Opening product: Apple monitor 24
+[2026-02-11 17:06:46.231] [main] INFO  pages.ProductPage - Product title detected: Apple monitor 24
+[2026-02-11 17:06:46.231] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Apple monitor 24
+[2026-02-11 17:06:47.184] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 17:06:47.184] [main] INFO  stepsDefinations.AddToCartSteps - Cart count - Expected: 2, Actual: 0
+[2026-02-11 17:06:47.397] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Add_two_products_and_verify_total_items_in_cart_20260211_170647395.png
+[2026-02-11 17:06:47.397] [main] INFO  hooks.Hooks - === Finished Scenario: Add two products and verify total items in cart | Status: FAILED ===
+[2026-02-11 17:06:49.690] [main] INFO  hooks.Hooks - === Starting Scenario: Delete a product from cart ===
+[2026-02-11 17:06:52.583] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 17:06:52.586] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 17:06:52.709] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 17:06:54.455] [main] INFO  pages.HomePage - Opening product: Nokia lumia 1520
+[2026-02-11 17:06:56.474] [main] INFO  pages.ProductPage - Product title detected: Nokia lumia 1520
+[2026-02-11 17:06:56.474] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Nokia lumia 1520
+[2026-02-11 17:07:00.527] [main] INFO  pages.HomePage - Navigating to Cart
+[2026-02-11 17:07:16.006] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Delete_a_product_from_cart_20260211_170716001.png
+[2026-02-11 17:07:16.007] [main] INFO  hooks.Hooks - === Finished Scenario: Delete a product from cart | Status: FAILED ===
+[2026-02-11 17:45:05.976] [main] INFO  hooks.Hooks - Loaded data.properties. Base URL = https://www.demoblaze.com/
+[2026-02-11 17:45:13.173] [main] INFO  hooks.Hooks - === Starting Scenario: Add one product to cart and verify it in cart ===
+[2026-02-11 17:45:15.977] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 17:45:16.016] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 17:45:16.145] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 17:45:17.909] [main] INFO  pages.HomePage - Opening product: Samsung galaxy s6
+[2026-02-11 17:45:20.108] [main] INFO  pages.ProductPage - Product title detected: Samsung galaxy s6
+[2026-02-11 17:45:20.108] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Samsung galaxy s6
+[2026-02-11 17:45:21.597] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 17:45:21.881] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 17:45:22.150] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 17:45:22.441] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 17:45:22.715] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 17:45:22.986] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 17:45:23.257] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 17:45:23.554] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 17:45:23.837] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 17:45:24.415] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Add_one_product_to_cart_and_verify_it_in_cart_20260211_174524405.png
+[2026-02-11 17:45:24.419] [main] INFO  hooks.Hooks - === Finished Scenario: Add one product to cart and verify it in cart | Status: FAILED ===
+[2026-02-11 17:45:28.282] [main] INFO  hooks.Hooks - === Starting Scenario: Add two products and verify total items in cart ===
+[2026-02-11 17:45:31.012] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 17:45:31.014] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 17:45:31.123] [main] INFO  pages.HomePage - Opening category: Laptops
+[2026-02-11 17:45:32.334] [main] INFO  pages.HomePage - Opening product: Sony vaio i5
+[2026-02-11 17:45:32.675] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Add_two_products_and_verify_total_items_in_cart_20260211_174532662.png
+[2026-02-11 17:45:32.675] [main] INFO  hooks.Hooks - === Finished Scenario: Add two products and verify total items in cart | Status: FAILED ===
+[2026-02-11 17:45:34.805] [main] INFO  hooks.Hooks - === Starting Scenario: Delete a product from cart ===
+[2026-02-11 17:45:39.856] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 17:45:39.858] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 17:45:40.320] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 17:45:42.081] [main] INFO  pages.HomePage - Opening product: Nokia lumia 1520
+[2026-02-11 17:45:44.074] [main] INFO  pages.ProductPage - Product title detected: Nokia lumia 1520
+[2026-02-11 17:45:44.084] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Nokia lumia 1520
+[2026-02-11 17:45:48.275] [main] INFO  pages.HomePage - Navigating to Cart
+[2026-02-11 17:46:03.810] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Delete_a_product_from_cart_20260211_174603803.png
+[2026-02-11 17:46:03.814] [main] INFO  hooks.Hooks - === Finished Scenario: Delete a product from cart | Status: FAILED ===
+[2026-02-11 17:50:50.027] [main] INFO  hooks.Hooks - Loaded data.properties. Base URL = https://www.demoblaze.com/
+[2026-02-11 17:50:52.634] [main] INFO  hooks.Hooks - === Starting Scenario: Add one product to cart and verify it in cart ===
+[2026-02-11 17:50:55.017] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 17:50:55.042] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 17:50:55.896] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 17:50:57.188] [main] INFO  pages.HomePage - Opening product: Samsung galaxy s6
+[2026-02-11 17:50:59.264] [main] INFO  pages.ProductPage - Product title detected: Samsung galaxy s6
+[2026-02-11 17:50:59.264] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Samsung galaxy s6
+[2026-02-11 17:51:00.760] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 17:51:01.039] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 17:51:01.330] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 17:51:01.611] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 17:51:01.882] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 17:51:02.149] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 17:51:02.451] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 17:51:02.730] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 17:51:03.001] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 17:51:03.599] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Add_one_product_to_cart_and_verify_it_in_cart_20260211_175103587.png
+[2026-02-11 17:51:03.602] [main] INFO  hooks.Hooks - === Finished Scenario: Add one product to cart and verify it in cart | Status: FAILED ===
+[2026-02-11 17:51:05.836] [main] INFO  hooks.Hooks - === Starting Scenario: Add two products and verify total items in cart ===
+[2026-02-11 17:51:09.483] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 17:51:09.485] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 17:51:09.591] [main] INFO  pages.HomePage - Opening category: Laptops
+[2026-02-11 17:51:11.902] [main] INFO  pages.HomePage - Opening product: Sony vaio i5
+[2026-02-11 17:51:13.881] [main] INFO  pages.ProductPage - Product title detected: Sony vaio i5
+[2026-02-11 17:51:13.881] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Sony vaio i5
+[2026-02-11 17:51:15.359] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 17:51:15.802] [main] INFO  pages.HomePage - Opening category: Monitors
+[2026-02-11 17:51:16.452] [main] INFO  pages.HomePage - Opening product: Apple monitor 24
+[2026-02-11 17:51:18.304] [main] INFO  pages.ProductPage - Product title detected: Apple monitor 24
+[2026-02-11 17:51:18.304] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Apple monitor 24
+[2026-02-11 17:51:19.356] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 17:51:19.356] [main] INFO  stepsDefinations.AddToCartSteps - Cart count - Expected: 2, Actual: 0
+[2026-02-11 17:51:19.608] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Add_two_products_and_verify_total_items_in_cart_20260211_175119600.png
+[2026-02-11 17:51:19.608] [main] INFO  hooks.Hooks - === Finished Scenario: Add two products and verify total items in cart | Status: FAILED ===
+[2026-02-11 17:51:21.868] [main] INFO  hooks.Hooks - === Starting Scenario: Delete a product from cart ===
+[2026-02-11 17:51:24.485] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 17:51:24.489] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 17:51:24.988] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 17:51:26.191] [main] INFO  pages.HomePage - Opening product: Nokia lumia 1520
+[2026-02-11 17:51:28.279] [main] INFO  pages.ProductPage - Product title detected: Nokia lumia 1520
+[2026-02-11 17:51:28.279] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Nokia lumia 1520
+[2026-02-11 17:51:32.409] [main] INFO  pages.HomePage - Navigating to Cart
+[2026-02-11 17:51:47.881] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Delete_a_product_from_cart_20260211_175147872.png
+[2026-02-11 17:51:47.881] [main] INFO  hooks.Hooks - === Finished Scenario: Delete a product from cart | Status: FAILED ===
+[2026-02-11 18:00:44.763] [main] INFO  hooks.Hooks - Loaded data.properties. Base URL = https://www.demoblaze.com/
+[2026-02-11 18:00:47.307] [main] INFO  hooks.Hooks - === Starting Scenario: Add one product to cart and verify it in cart ===
+[2026-02-11 18:00:49.768] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 18:00:49.795] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 18:00:49.926] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 18:00:51.673] [main] INFO  pages.HomePage - Opening product: Samsung galaxy s6
+[2026-02-11 18:00:53.750] [main] INFO  pages.ProductPage - Product title detected: Samsung galaxy s6
+[2026-02-11 18:00:53.750] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Samsung galaxy s6
+[2026-02-11 18:00:57.962] [main] INFO  pages.CartPage - Items currently in cart: [Samsung galaxy s6]
+[2026-02-11 18:00:58.005] [main] INFO  hooks.Hooks - === Finished Scenario: Add one product to cart and verify it in cart | Status: PASSED ===
+[2026-02-11 18:01:00.258] [main] INFO  hooks.Hooks - === Starting Scenario: Add two products and verify total items in cart ===
+[2026-02-11 18:01:13.474] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 18:01:13.477] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 18:01:15.244] [main] INFO  pages.HomePage - Opening category: Laptops
+[2026-02-11 18:01:16.487] [main] INFO  pages.HomePage - Opening product: Sony vaio i5
+[2026-02-11 18:01:16.765] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Add_two_products_and_verify_total_items_in_cart_20260211_180116758.png
+[2026-02-11 18:01:16.767] [main] INFO  hooks.Hooks - === Finished Scenario: Add two products and verify total items in cart | Status: FAILED ===
+[2026-02-11 18:01:19.131] [main] INFO  hooks.Hooks - === Starting Scenario: Delete a product from cart ===
+[2026-02-11 18:01:20.199] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 18:01:20.216] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 18:01:21.787] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 18:01:23.572] [main] INFO  pages.HomePage - Opening product: Nokia lumia 1520
+[2026-02-11 18:01:25.655] [main] INFO  pages.ProductPage - Product title detected: Nokia lumia 1520
+[2026-02-11 18:01:25.655] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Nokia lumia 1520
+[2026-02-11 18:01:29.751] [main] INFO  pages.HomePage - Navigating to Cart
+[2026-02-11 18:01:45.286] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Delete_a_product_from_cart_20260211_180145274.png
+[2026-02-11 18:01:45.286] [main] INFO  hooks.Hooks - === Finished Scenario: Delete a product from cart | Status: FAILED ===
+[2026-02-11 18:08:25.113] [main] INFO  hooks.Hooks - Loaded data.properties. Base URL = https://www.demoblaze.com/
+[2026-02-11 18:08:27.500] [main] INFO  hooks.Hooks - === Starting Scenario: Add one product to cart and verify it in cart ===
+[2026-02-11 18:08:30.237] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 18:08:30.266] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 18:08:30.392] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 18:08:34.258] [main] INFO  pages.ProductPage - Product title detected: Samsung galaxy s6
+[2026-02-11 18:08:34.258] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Samsung galaxy s6
+[2026-02-11 18:08:38.270] [main] INFO  pages.CartPage - Items currently in cart: [Samsung galaxy s6]
+[2026-02-11 18:08:38.307] [main] INFO  hooks.Hooks - === Finished Scenario: Add one product to cart and verify it in cart | Status: PASSED ===
+[2026-02-11 18:08:40.757] [main] INFO  hooks.Hooks - === Starting Scenario: Add two products and verify total items in cart ===
+[2026-02-11 18:08:43.010] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 18:08:43.012] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 18:08:43.120] [main] INFO  pages.HomePage - Opening category: Laptops
+[2026-02-11 18:08:46.721] [main] INFO  pages.ProductPage - Product title detected: Sony vaio i5
+[2026-02-11 18:08:46.721] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Sony vaio i5
+[2026-02-11 18:08:48.177] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 18:08:48.636] [main] INFO  pages.HomePage - Opening category: Monitors
+[2026-02-11 18:08:50.437] [main] INFO  pages.ProductPage - Product title detected: Apple monitor 24
+[2026-02-11 18:08:50.437] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Apple monitor 24
+[2026-02-11 18:08:51.403] [main] INFO  pages.CartPage - Items currently in cart: []
+[2026-02-11 18:08:51.403] [main] INFO  stepsDefinations.AddToCartSteps - Cart count - Expected: 2, Actual: 0
+[2026-02-11 18:08:51.653] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Add_two_products_and_verify_total_items_in_cart_20260211_180851641.png
+[2026-02-11 18:08:51.655] [main] INFO  hooks.Hooks - === Finished Scenario: Add two products and verify total items in cart | Status: FAILED ===
+[2026-02-11 18:08:53.890] [main] INFO  hooks.Hooks - === Starting Scenario: Delete a product from cart ===
+[2026-02-11 18:08:56.764] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 18:08:56.768] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 18:08:56.880] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 18:09:00.158] [main] INFO  pages.ProductPage - Product title detected: Nokia lumia 1520
+[2026-02-11 18:09:00.158] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Nokia lumia 1520
+[2026-02-11 18:09:03.712] [main] INFO  pages.HomePage - Navigating to Cart
+[2026-02-11 18:09:19.355] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Delete_a_product_from_cart_20260211_180919355.png
+[2026-02-11 18:09:19.355] [main] INFO  hooks.Hooks - === Finished Scenario: Delete a product from cart | Status: FAILED ===
+[2026-02-11 18:15:26.347] [main] INFO  hooks.Hooks - Loaded data.properties. Base URL = https://www.demoblaze.com/
+[2026-02-11 18:15:28.762] [main] INFO  hooks.Hooks - === Starting Scenario: Add one product to cart and verify it in cart ===
+[2026-02-11 18:15:31.937] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 18:15:31.969] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 18:15:32.098] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 18:15:35.611] [main] INFO  pages.ProductPage - Product title detected: Samsung galaxy s6
+[2026-02-11 18:15:35.611] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Samsung galaxy s6
+[2026-02-11 18:15:48.644] [main] INFO  pages.CartPage - Items currently in cart: [Samsung galaxy s6]
+[2026-02-11 18:15:48.690] [main] INFO  hooks.Hooks - === Finished Scenario: Add one product to cart and verify it in cart | Status: PASSED ===
+[2026-02-11 18:15:50.822] [main] INFO  hooks.Hooks - === Starting Scenario: Add two products and verify total items in cart ===
+[2026-02-11 18:15:53.759] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 18:15:53.762] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 18:15:53.906] [main] INFO  pages.HomePage - Opening category: Laptops
+[2026-02-11 18:15:57.295] [main] INFO  pages.ProductPage - Product title detected: Sony vaio i5
+[2026-02-11 18:15:57.295] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Sony vaio i5
+[2026-02-11 18:15:58.742] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 18:15:58.873] [main] INFO  pages.HomePage - Opening category: Monitors
+[2026-02-11 18:16:00.689] [main] INFO  pages.ProductPage - Product title detected: Apple monitor 24
+[2026-02-11 18:16:00.689] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Apple monitor 24
+[2026-02-11 18:16:05.767] [main] INFO  hooks.Hooks - === Finished Scenario: Add two products and verify total items in cart | Status: PASSED ===
+[2026-02-11 18:16:08.127] [main] INFO  hooks.Hooks - === Starting Scenario: Delete a product from cart ===
+[2026-02-11 18:16:11.046] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 18:16:11.049] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 18:16:11.161] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 18:16:14.606] [main] INFO  pages.ProductPage - Product title detected: Nokia lumia 1520
+[2026-02-11 18:16:14.606] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Nokia lumia 1520
+[2026-02-11 18:16:18.706] [main] INFO  pages.HomePage - Navigating to Cart
+[2026-02-11 18:16:34.244] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Delete_a_product_from_cart_20260211_181634236.png
+[2026-02-11 18:16:34.244] [main] INFO  hooks.Hooks - === Finished Scenario: Delete a product from cart | Status: FAILED ===
+[2026-02-11 18:28:42.003] [main] INFO  hooks.Hooks - Loaded data.properties. Base URL = https://www.demoblaze.com/
+[2026-02-11 18:28:44.632] [main] INFO  hooks.Hooks - === Starting Scenario: Add one product to cart and verify it in cart ===
+[2026-02-11 18:28:47.135] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 18:28:47.161] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 18:28:47.596] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 18:28:51.043] [main] INFO  pages.ProductPage - Product title detected: Samsung galaxy s6
+[2026-02-11 18:28:51.043] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Samsung galaxy s6
+[2026-02-11 18:28:55.062] [main] INFO  pages.CartPage - Items currently in cart: [Samsung galaxy s6]
+[2026-02-11 18:28:55.102] [main] INFO  hooks.Hooks - === Finished Scenario: Add one product to cart and verify it in cart | Status: PASSED ===
+[2026-02-11 18:28:57.622] [main] INFO  hooks.Hooks - === Starting Scenario: Add two products and verify total items in cart ===
+[2026-02-11 18:29:00.430] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 18:29:00.436] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 18:29:00.555] [main] INFO  pages.HomePage - Opening category: Laptops
+[2026-02-11 18:29:04.437] [main] INFO  pages.ProductPage - Product title detected: Sony vaio i5
+[2026-02-11 18:29:04.437] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Sony vaio i5
+[2026-02-11 18:29:06.405] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 18:29:06.532] [main] INFO  pages.HomePage - Opening category: Monitors
+[2026-02-11 18:29:09.880] [main] INFO  pages.ProductPage - Product title detected: Apple monitor 24
+[2026-02-11 18:29:09.880] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Apple monitor 24
+[2026-02-11 18:29:20.653] [main] INFO  hooks.Hooks - === Finished Scenario: Add two products and verify total items in cart | Status: PASSED ===
+[2026-02-11 18:29:23.187] [main] INFO  hooks.Hooks - === Starting Scenario: Delete a product from cart ===
+[2026-02-11 18:29:25.742] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 18:29:25.744] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 18:29:25.855] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 18:29:29.151] [main] INFO  pages.ProductPage - Product title detected: Nokia lumia 1520
+[2026-02-11 18:29:29.151] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Nokia lumia 1520
+[2026-02-11 18:29:45.572] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Delete_a_product_from_cart_20260211_182945562.png
+[2026-02-11 18:29:45.575] [main] INFO  hooks.Hooks - === Finished Scenario: Delete a product from cart | Status: FAILED ===
+[2026-02-11 18:35:42.989] [main] INFO  hooks.Hooks - Loaded data.properties. Base URL = https://www.demoblaze.com/
+[2026-02-11 18:35:45.551] [main] INFO  hooks.Hooks - === Starting Scenario: Add one product to cart and verify it in cart ===
+[2026-02-11 18:35:50.808] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 18:35:50.830] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 18:35:50.967] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 18:35:54.452] [main] INFO  pages.ProductPage - Product title detected: Samsung galaxy s6
+[2026-02-11 18:35:54.452] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Samsung galaxy s6
+[2026-02-11 18:35:58.039] [main] INFO  pages.CartPage - Items currently in cart: [Samsung galaxy s6]
+[2026-02-11 18:35:58.103] [main] INFO  hooks.Hooks - === Finished Scenario: Add one product to cart and verify it in cart | Status: PASSED ===
+[2026-02-11 18:36:00.394] [main] INFO  hooks.Hooks - === Starting Scenario: Add two products and verify total items in cart ===
+[2026-02-11 18:36:03.432] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 18:36:03.439] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 18:36:03.562] [main] INFO  pages.HomePage - Opening category: Laptops
+[2026-02-11 18:36:06.952] [main] INFO  pages.ProductPage - Product title detected: Sony vaio i5
+[2026-02-11 18:36:06.952] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Sony vaio i5
+[2026-02-11 18:36:08.408] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 18:36:08.524] [main] INFO  pages.HomePage - Opening category: Monitors
+[2026-02-11 18:36:10.405] [main] INFO  pages.ProductPage - Product title detected: Apple monitor 24
+[2026-02-11 18:36:10.407] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Apple monitor 24
+[2026-02-11 18:36:14.844] [main] INFO  hooks.Hooks - === Finished Scenario: Add two products and verify total items in cart | Status: PASSED ===
+[2026-02-11 18:36:17.108] [main] INFO  hooks.Hooks - === Starting Scenario: Delete a product from cart ===
+[2026-02-11 18:36:19.852] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 18:36:19.853] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 18:36:19.959] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 18:36:23.107] [main] INFO  pages.ProductPage - Product title detected: Nokia lumia 1520
+[2026-02-11 18:36:23.107] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Nokia lumia 1520
+[2026-02-11 18:36:39.508] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Delete_a_product_from_cart_20260211_183639503.png
+[2026-02-11 18:36:39.513] [main] INFO  hooks.Hooks - === Finished Scenario: Delete a product from cart | Status: FAILED ===
+[2026-02-11 18:47:18.840] [main] INFO  hooks.Hooks - Loaded data.properties. Base URL = https://www.demoblaze.com/
+[2026-02-11 18:47:22.653] [main] INFO  hooks.Hooks - === Starting Scenario: Add one product to cart and verify it in cart ===
+[2026-02-11 18:47:25.799] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 18:47:25.824] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 18:47:25.944] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 18:47:29.259] [main] INFO  pages.ProductPage - Product title detected: Samsung galaxy s6
+[2026-02-11 18:47:29.259] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Samsung galaxy s6
+[2026-02-11 18:47:33.753] [main] INFO  pages.CartPage - Items currently in cart: [Samsung galaxy s6]
+[2026-02-11 18:47:33.802] [main] INFO  hooks.Hooks - === Finished Scenario: Add one product to cart and verify it in cart | Status: PASSED ===
+[2026-02-11 18:47:37.744] [main] INFO  hooks.Hooks - === Starting Scenario: Add two products and verify total items in cart ===
+[2026-02-11 18:47:40.797] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 18:47:40.803] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 18:47:40.938] [main] INFO  pages.HomePage - Opening category: Laptops
+[2026-02-11 18:47:44.209] [main] INFO  pages.ProductPage - Product title detected: Sony vaio i5
+[2026-02-11 18:47:44.209] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Sony vaio i5
+[2026-02-11 18:47:45.668] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 18:47:46.122] [main] INFO  pages.HomePage - Opening category: Monitors
+[2026-02-11 18:47:48.080] [main] INFO  pages.ProductPage - Product title detected: Apple monitor 24
+[2026-02-11 18:47:48.082] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Apple monitor 24
+[2026-02-11 18:47:52.430] [main] INFO  hooks.Hooks - === Finished Scenario: Add two products and verify total items in cart | Status: PASSED ===
+[2026-02-11 18:47:54.759] [main] INFO  hooks.Hooks - === Starting Scenario: Delete a product from cart ===
+[2026-02-11 18:47:57.309] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 18:47:57.311] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 18:47:57.800] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 18:48:01.178] [main] INFO  pages.ProductPage - Product title detected: Nokia lumia 1520
+[2026-02-11 18:48:01.179] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Nokia lumia 1520
+[2026-02-11 18:48:20.262] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Delete_a_product_from_cart_20260211_184820255.png
+[2026-02-11 18:48:20.263] [main] INFO  hooks.Hooks - === Finished Scenario: Delete a product from cart | Status: FAILED ===
+[2026-02-11 18:51:17.304] [main] INFO  hooks.Hooks - Loaded data.properties. Base URL = https://www.demoblaze.com/
+[2026-02-11 18:51:19.841] [main] INFO  hooks.Hooks - === Starting Scenario: Delete a product from cart ===
+[2026-02-11 18:51:24.363] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 18:51:24.400] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 18:51:24.528] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 18:51:28.362] [main] INFO  pages.ProductPage - Product title detected: Nokia lumia 1520
+[2026-02-11 18:51:28.362] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Nokia lumia 1520
+[2026-02-11 18:51:44.230] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Delete_a_product_from_cart_20260211_185144227.png
+[2026-02-11 18:51:44.230] [main] INFO  hooks.Hooks - === Finished Scenario: Delete a product from cart | Status: FAILED ===
+[2026-02-11 18:54:46.717] [main] INFO  hooks.Hooks - Loaded data.properties. Base URL = https://www.demoblaze.com/
+[2026-02-11 18:54:49.342] [main] INFO  hooks.Hooks - === Starting Scenario: Delete a product from cart ===
+[2026-02-11 18:54:51.985] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 18:54:52.008] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 18:54:52.138] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 18:54:55.703] [main] INFO  pages.ProductPage - Product title detected: Nokia lumia 1520
+[2026-02-11 18:54:55.704] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Nokia lumia 1520
+[2026-02-11 18:55:12.208] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Delete_a_product_from_cart_20260211_185512198.png
+[2026-02-11 18:55:12.212] [main] INFO  hooks.Hooks - === Finished Scenario: Delete a product from cart | Status: FAILED ===
+[2026-02-11 19:01:20.241] [main] INFO  hooks.Hooks - Loaded data.properties. Base URL = https://www.demoblaze.com/
+[2026-02-11 19:01:24.511] [main] INFO  hooks.Hooks - === Starting Scenario: Delete a product from cart ===
+[2026-02-11 19:01:31.627] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 19:01:31.661] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 19:01:31.891] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 19:01:35.545] [main] INFO  pages.ProductPage - Product title detected: Nokia lumia 1520
+[2026-02-11 19:01:35.545] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Nokia lumia 1520
+[2026-02-11 19:01:52.737] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Delete_a_product_from_cart_20260211_190152722.png
+[2026-02-11 19:01:52.757] [main] INFO  hooks.Hooks - === Finished Scenario: Delete a product from cart | Status: FAILED ===
+[2026-02-11 19:03:35.012] [main] INFO  hooks.Hooks - Loaded data.properties. Base URL = https://www.demoblaze.com/
+[2026-02-11 19:03:38.712] [main] INFO  hooks.Hooks - === Starting Scenario: Delete a product from cart ===
+[2026-02-11 19:03:41.598] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 19:03:41.667] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 19:03:41.872] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 19:03:46.426] [main] INFO  pages.ProductPage - Product title detected: Nokia lumia 1520
+[2026-02-11 19:03:46.426] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Nokia lumia 1520
+[2026-02-11 19:04:03.496] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Delete_a_product_from_cart_20260211_190403481.png
+[2026-02-11 19:04:03.502] [main] INFO  hooks.Hooks - === Finished Scenario: Delete a product from cart | Status: FAILED ===
+[2026-02-11 19:06:36.883] [main] INFO  hooks.Hooks - Loaded data.properties. Base URL = https://www.demoblaze.com/
+[2026-02-11 19:06:41.127] [main] INFO  hooks.Hooks - === Starting Scenario: Delete a product from cart ===
+[2026-02-11 19:06:45.974] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 19:06:46.034] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 19:06:46.293] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 19:06:49.484] [main] INFO  pages.ProductPage - Product title detected: Nokia lumia 1520
+[2026-02-11 19:06:49.484] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Nokia lumia 1520
+[2026-02-11 19:06:54.753] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Delete_a_product_from_cart_20260211_190654737.png
+[2026-02-11 19:06:54.757] [main] INFO  hooks.Hooks - === Finished Scenario: Delete a product from cart | Status: FAILED ===
+[2026-02-11 19:10:18.392] [main] INFO  hooks.Hooks - Loaded data.properties. Base URL = https://www.demoblaze.com/
+[2026-02-11 19:10:22.446] [main] INFO  hooks.Hooks - === Starting Scenario: Delete a product from cart ===
+[2026-02-11 19:10:25.106] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 19:10:25.155] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 19:10:25.352] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 19:10:29.280] [main] INFO  pages.ProductPage - Product title detected: Nokia lumia 1520
+[2026-02-11 19:10:29.280] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Nokia lumia 1520
+[2026-02-11 19:10:33.165] [main] INFO  pages.HomePage - Navigating to Cart
+[2026-02-11 19:10:48.913] [main] ERROR hooks.Hooks - Failure screenshot saved at: C:\Users\Aryan.Pareek\eclipse-workspace\automationCart\target\screenshots\Delete_a_product_from_cart_20260211_191048904.png
+[2026-02-11 19:10:48.917] [main] INFO  hooks.Hooks - === Finished Scenario: Delete a product from cart | Status: FAILED ===
+[2026-02-11 19:12:24.298] [main] INFO  hooks.Hooks - Loaded data.properties. Base URL = https://www.demoblaze.com/
+[2026-02-11 19:12:28.233] [main] INFO  hooks.Hooks - === Starting Scenario: Add one product to cart and verify it in cart ===
+[2026-02-11 19:12:33.423] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 19:12:33.465] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 19:12:33.731] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-11 19:12:37.371] [main] INFO  pages.ProductPage - Product title detected: Samsung galaxy s6
+[2026-02-11 19:12:37.371] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Samsung galaxy s6
+[2026-02-11 19:12:41.895] [main] INFO  pages.CartPage - Items currently in cart: [Samsung galaxy s6]
+[2026-02-11 19:12:42.016] [main] INFO  hooks.Hooks - === Finished Scenario: Add one product to cart and verify it in cart | Status: PASSED ===
+[2026-02-11 19:12:47.416] [main] INFO  hooks.Hooks - === Starting Scenario: Add two products and verify total items in cart ===
+[2026-02-11 19:12:51.996] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-11 19:12:51.998] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 19:12:52.172] [main] INFO  pages.HomePage - Opening category: Laptops
+[2026-02-11 19:12:56.049] [main] INFO  pages.ProductPage - Product title detected: Sony vaio i5
+[2026-02-11 19:12:56.051] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Sony vaio i5
+[2026-02-11 19:12:57.662] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-11 19:12:57.844] [main] INFO  pages.HomePage - Opening category: Monitors
+[2026-02-11 19:13:00.259] [main] INFO  pages.ProductPage - Product title detected: Apple monitor 24
+[2026-02-11 19:13:00.279] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Apple monitor 24
+[2026-02-11 19:13:05.770] [main] INFO  hooks.Hooks - === Finished Scenario: Add two products and verify total items in cart | Status: PASSED ===
