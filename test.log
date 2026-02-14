@@ -1,0 +1,40 @@
+[2026-02-13 16:09:53.994] [main] WARN  hooks.Hooks - data.properties NOT found on classpath. Using default Base URL: https://www.demoblaze.com/
+[2026-02-13 16:10:00.639] [main] INFO  hooks.Hooks - === Starting Scenario: Add one product to cart and verify it in cart ===
+[2026-02-13 16:10:03.383] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-13 16:10:03.439] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-13 16:10:03.714] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-13 16:10:08.112] [main] INFO  pages.ProductPage - Product title detected: Samsung galaxy s6
+[2026-02-13 16:10:08.112] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Samsung galaxy s6
+[2026-02-13 16:10:12.459] [main] INFO  pages.CartPage - Items currently in cart: [Samsung galaxy s6]
+[2026-02-13 16:10:12.522] [main] INFO  hooks.Hooks - === Finished Scenario: Add one product to cart and verify it in cart | Status: PASSED ===
+[2026-02-13 16:10:16.327] [main] INFO  hooks.Hooks - === Starting Scenario: Add two products and verify total items in cart ===
+[2026-02-13 16:10:19.521] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-13 16:10:19.526] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-13 16:10:19.706] [main] INFO  pages.HomePage - Opening category: Laptops
+[2026-02-13 16:10:23.888] [main] INFO  pages.ProductPage - Product title detected: Sony vaio i5
+[2026-02-13 16:10:23.888] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Sony vaio i5
+[2026-02-13 16:10:25.482] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-13 16:10:25.704] [main] INFO  pages.HomePage - Opening category: Monitors
+[2026-02-13 16:10:28.340] [main] INFO  pages.ProductPage - Product title detected: Apple monitor 24
+[2026-02-13 16:10:28.340] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Apple monitor 24
+[2026-02-13 16:10:33.826] [main] INFO  hooks.Hooks - === Finished Scenario: Add two products and verify total items in cart | Status: PASSED ===
+[2026-02-13 16:24:37.380] [main] WARN  hooks.Hooks - data.properties NOT found on classpath. Using default Base URL: https://www.demoblaze.com/
+[2026-02-13 16:24:41.605] [main] INFO  hooks.Hooks - === Starting Scenario: Add one product to cart and verify it in cart ===
+[2026-02-13 16:24:44.290] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-13 16:24:44.338] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-13 16:24:44.567] [main] INFO  pages.HomePage - Opening category: Phones
+[2026-02-13 16:24:48.594] [main] INFO  pages.ProductPage - Product title detected: Samsung galaxy s6
+[2026-02-13 16:24:48.594] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Samsung galaxy s6
+[2026-02-13 16:24:53.025] [main] INFO  pages.CartPage - Items currently in cart: [Samsung galaxy s6]
+[2026-02-13 16:24:53.038] [main] INFO  hooks.Hooks - === Finished Scenario: Add one product to cart and verify it in cart | Status: PASSED ===
+[2026-02-13 16:24:56.751] [main] INFO  hooks.Hooks - === Starting Scenario: Add two products and verify total items in cart ===
+[2026-02-13 16:25:00.051] [main] INFO  hooks.Hooks - Navigated to: https://www.demoblaze.com/
+[2026-02-13 16:25:00.093] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-13 16:25:00.287] [main] INFO  pages.HomePage - Opening category: Laptops
+[2026-02-13 16:25:04.479] [main] INFO  pages.ProductPage - Product title detected: Sony vaio i5
+[2026-02-13 16:25:04.479] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Sony vaio i5
+[2026-02-13 16:25:06.063] [main] INFO  pages.HomePage - Opening URL: https://www.demoblaze.com/
+[2026-02-13 16:25:06.225] [main] INFO  pages.HomePage - Opening category: Monitors
+[2026-02-13 16:25:08.553] [main] INFO  pages.ProductPage - Product title detected: Apple monitor 24
+[2026-02-13 16:25:08.555] [main] INFO  stepsDefinations.AddToCartSteps - Adding product to cart: Apple monitor 24
+[2026-02-13 16:25:13.511] [main] INFO  hooks.Hooks - === Finished Scenario: Add two products and verify total items in cart | Status: PASSED ===
